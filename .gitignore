@@ -1,1 +1,14 @@
 env/
+venv/
+
+# Ignorar carpetas y archivos de configuración de IDE
+.vscode/
+
+# Ignorar archivos específicos de Python
+__pycache__/
+*.pyc
+
+# Ignorar archivos y carpetas de configuraciones de entornos virtuales
+*.pyo
+*.pyd
+pyvenv.cfg
